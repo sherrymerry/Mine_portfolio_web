@@ -2,10 +2,11 @@
 
     document.addEventListener('DOMContentLoaded', function() {
 
-        countdown('.counter', 0, 120);
+        countdown('.counter', 1, 120);
         countdown('.number1', 0, 100);
         countdown('.number2', 0, 1200);
         countdown('.number3', 0, 1200);
+        countdown('.number4', 1, 500);
   
     });
     
