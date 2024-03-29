@@ -1,19 +1,11 @@
-  
 document.addEventListener('DOMContentLoaded', function() {
-    window.addEventListener('scroll', function() {
-        var counterElement = document.querySelector('.counter, .number1, .number2, .number3, .number4');
-        var sectionOffsetTop = counterElement.getBoundingClientRect().top;
-        var windowHeight = window.innerHeight;
-        
-        // Check if the section is in view
-        if (sectionOffsetTop < windowHeight) {
-            countdown('.counter', 0, 120);
-            countdown('.number1', 0, 100);
-            countdown('.number2', 0, 1200);
-            countdown('.number3', 0, 1200);
-            countdown('.number4', 1, 500);
-        }
-    });
+
+    countdown('.counter', 0, 120);
+    countdown('.number1', 0, 100);
+    countdown('.number2', 0, 1200);
+    countdown('.number3', 0, 1200);
+    countdown('.number4', 1, 500);
+
 });
 
 function countdown(className, start, end) {
@@ -25,18 +17,10 @@ function countdown(className, start, end) {
         if (currentValue >= end) {
             clearInterval(interval);
         }
-    }, 70); // Adjust speed by changing the interval (50ms here)
+    }, 90); // Adjust speed by changing the interval (50ms here)
 }
 
 
-
-// Add this JavaScript for toggling the mobile menu
-// const menuToggle = document.querySelector('.menu-toggle');
-// const navbar = document.getElementById('navbar');
-
-// menuToggle.addEventListener('click', () => {
-//     navbar.classList.toggle('show-menu');
-// });
 
 
 
