@@ -244,7 +244,7 @@ body{
     font-size: 14vh;
     color:#1a1a1a;
     font-weight: 900;
-    margin-top: -72px;
+    margin-top: -55px;
 }
 
 @media only screen and (max-width: 450px) {
@@ -1100,9 +1100,6 @@ body{
 }
 
 
-
-
-
 .html-5{
     font-size: 30px;
     font-weight: 400;
@@ -1153,7 +1150,7 @@ body{
     overflow: visible;
     margin-top: 12px;
     margin-right: 180px;
-    border-radius: 3px 3px;
+    
 }
 
 
@@ -1198,16 +1195,10 @@ body{
 .css3 span{
     font-size: 28px;
     font-weight: 400;
-    margin-left: 275px;
+    margin-left: 185px;
 
 }  
-@media  screen and (min-width:380px) {
-    .css3 span{
-        margin-right:80px;
 
-    }
-    
-}
 
 .y-line5{
     height: 10px;
@@ -1216,7 +1207,7 @@ body{
     background: #edaf34;
     overflow: visible;
     margin-top: 12px;
-    margin-right: 100px;
+    margin-right: 280px;
 }
 
 
