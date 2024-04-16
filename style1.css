@@ -1089,6 +1089,17 @@ body{
 
 }  
 
+@media only screen and(max-width: 450px){
+    .p-shop span{
+        margin-right: 40px;
+    }
+    .seo span{
+        margin-right: 120px;
+        margin-left: -100px;
+    }
+
+}
+
 .y-line1{
     height: 10px;
     -webkit-box-shadow: none;
